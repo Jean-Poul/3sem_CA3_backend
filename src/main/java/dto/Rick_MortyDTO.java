@@ -20,6 +20,7 @@ public class Rick_MortyDTO {
         this.species = cartoon.getSpecies();
         this.type = cartoon.getType();
         this.gender = cartoon.getGender();
+        this.URL = origin.getURL();
     }    
 
     public Rick_MortyDTO() {
