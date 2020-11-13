@@ -45,6 +45,10 @@ GET methods
 
 6. http://localhost:8080/CA3_Boilerplate/api/info/admin (UserResource.java) same steps as endpoint 5 but here you test login for an admin
 
+7. http://localhost:8080/CA3_Boilerplate/api/cartoon/first (CartoonResource.java) will let you see the first character in the cartoon api for Rick and Morty
+
+8. http://localhost:8080/CA3_Boilerplate/api/cartoon/{id} (CartoonResource.java) will let you see the every character in the cartoon api for Rick and Morty. Id has to be between 1-671)
+
 POST method
 
 1. http://localhost:8080/CA3_Boilerplate/api/login (LoginEndpoint.java) with this endpoint you can with a program like postmand create a user which will then send you a token in response. Remember to add a user and password to the body of the request (if using postman)
