@@ -11,6 +11,7 @@ public class Rick_MortyDTO {
     private String species;
     private String type;
     private String gender;
+    private String URL;
     private Origin origin;
     private Rick_Morty cartoon;
 
@@ -56,13 +57,21 @@ public class Rick_MortyDTO {
         this.gender = gender;
     }
 
-//    public Rick_Morty getCartoon() {
-//        return cartoon;
-//    }
-//
-//    public void setCartoon(Rick_Morty cartoon) {
-//        this.cartoon = cartoon;
-//    }
+    public Rick_Morty getCartoon() {
+        return cartoon;
+    }
+
+    public void setCartoon(Rick_Morty cartoon) {
+        this.cartoon = cartoon;
+    }
+
+    public String getURL() {
+        return URL;
+    }
+
+    public void setURL(String URL) {
+        this.URL = URL;
+    }
 
     public Origin getOrigin() {
         return origin;
@@ -72,10 +81,11 @@ public class Rick_MortyDTO {
         this.origin = origin;
     }
 
+    
 
     @Override
     public String toString() {
-        return "Rick_MortyDTO{" + "name=" + name + ", species=" + species + ", type=" + type + ", gender=" + gender + ", cartoon=" + cartoon + '}';
+        return "Rick_MortyDTO{" + "name=" + name + ", species=" + species + ", type=" + type + ", gender=" + gender + ", URL=" + URL + ", cartoon=" + cartoon + '}';
     }   
     
 }
