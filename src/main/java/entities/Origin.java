@@ -17,8 +17,8 @@ public class Origin {
         return url;
     }
 
-    public void setURL(String URL) {
-        this.url = URL;
+    public void setURL(String url) {
+        this.url = url;
     }
     
 }
