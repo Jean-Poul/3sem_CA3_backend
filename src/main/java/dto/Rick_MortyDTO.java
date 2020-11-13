@@ -1,0 +1,85 @@
+
+package dto;
+
+import entities.Rick_Morty;
+
+
+public class Rick_MortyDTO {
+    
+    private String name;
+    private String species;
+    private String type;
+    private String gender;
+    private String URL;
+    private Rick_Morty cartoon;
+
+    public Rick_MortyDTO(Rick_Morty cartoon) {
+        this.name = cartoon.getName();
+        this.species = cartoon.getSpecies();
+        this.type = cartoon.getType();
+        this.gender = cartoon.getGender();
+        this.URL = cartoon.getURL();
+    }    
+
+    public Rick_MortyDTO() {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public Rick_Morty getCartoon() {
+        return cartoon;
+    }
+
+    public void setCartoon(Rick_Morty cartoon) {
+        this.cartoon = cartoon;
+    }
+
+    public String getURL() {
+        return URL;
+    }
+
+    public void setURL(String URL) {
+        this.URL = URL;
+    }
+
+    @Override
+    public String toString() {
+        return "Rick_MortyDTO{" + "name=" + name + ", species=" + species + ", type=" + type + ", gender=" + gender + ", URL=" + URL + ", cartoon=" + cartoon + '}';
+    }
+    
+
+    
+
+    
+    
+}
