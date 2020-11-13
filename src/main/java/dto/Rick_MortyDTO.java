@@ -1,6 +1,7 @@
 
 package dto;
 
+import entities.Origin;
 import entities.Rick_Morty;
 
 
@@ -11,14 +12,15 @@ public class Rick_MortyDTO {
     private String type;
     private String gender;
     private String URL;
+    private Origin origin;
     private Rick_Morty cartoon;
 
-    public Rick_MortyDTO(Rick_Morty cartoon) {
+    public Rick_MortyDTO(Rick_Morty cartoon, Origin origin) {
         this.name = cartoon.getName();
         this.species = cartoon.getSpecies();
         this.type = cartoon.getType();
         this.gender = cartoon.getGender();
-        this.URL = cartoon.getURL();
+        this.URL = origin.getURL();
     }    
 
     public Rick_MortyDTO() {
@@ -72,14 +74,19 @@ public class Rick_MortyDTO {
         this.URL = URL;
     }
 
+    public Origin getOrigin() {
+        return origin;
+    }
+
+    public void setOrigin(Origin origin) {
+        this.origin = origin;
+    }
+
+    
+
     @Override
     public String toString() {
         return "Rick_MortyDTO{" + "name=" + name + ", species=" + species + ", type=" + type + ", gender=" + gender + ", URL=" + URL + ", cartoon=" + cartoon + '}';
-    }
-    
-
-    
-
-    
+    }   
     
 }

@@ -17,15 +17,15 @@ public class Rick_Morty implements Serializable {
     private String species;
     private String type;
     private String gender;
-    private String URL;
+    private Origin origin;
 
-    public Rick_Morty(String id, String name, String species, String type, String gender, String URL) {
+    public Rick_Morty(String id, String name, String species, String type, String gender, Origin origin) {
         this.id = id;
         this.name = name;
         this.species = species;
         this.type = type;
         this.gender = gender;
-        this.URL = URL;
+        this.origin = origin;
     }
 
     public Rick_Morty() {
@@ -71,12 +71,12 @@ public class Rick_Morty implements Serializable {
         this.gender = gender;
     }
 
-    public String getURL() {
-        return URL;
+    public Origin getOrigin() {
+        return origin;
     }
 
-    public void setURL(String URL) {
-        this.URL = URL;
+    public void setOrigin(Origin origin) {
+        this.origin = origin;
     }
     
     
