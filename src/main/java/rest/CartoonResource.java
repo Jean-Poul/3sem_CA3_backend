@@ -20,6 +20,7 @@ public class CartoonResource {
     @Produces(MediaType.APPLICATION_JSON)
     public String getCartoon() throws IOException {
         Gson gson = new Gson();
+        
         String cartoon = HttpUtils.fetchData("https://rickandmortyapi.com/api/character/1");
         System.out.println(cartoon + " CARTOON");
         
