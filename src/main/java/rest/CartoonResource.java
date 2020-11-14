@@ -18,7 +18,6 @@ public class CartoonResource {
     @Path("first")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    @Consumes(MediaType.APPLICATION_JSON)
     public String getCartoon() throws IOException {
         Gson gson = new Gson();
 
