@@ -1,6 +1,6 @@
-# CA3 Boilerplate for backend
+# CA3 Boilerplate for backend [![Build Status](https://travis-ci.com/Jean-Poul/3sem_CA3_backend.svg?branch=main)](https://travis-ci.com/Jean-Poul/3sem_CA3_backend)
 
-## DATAMATIKER 3. SEMEMESTER 
+## DATAMATIKER 3. SEMEMESTER  
 
 ### Steps for setup
 
