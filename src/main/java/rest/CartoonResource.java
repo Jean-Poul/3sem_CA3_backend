@@ -9,11 +9,16 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.UriInfo;
 import utils.HttpUtils;
 
 @Path("cartoon")
 public class CartoonResource {
+    
+    @Context
+    private UriInfo context;
 
     @Path("first")
     @GET
