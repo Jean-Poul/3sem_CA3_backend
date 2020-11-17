@@ -25,22 +25,22 @@ Run your project local or online and test the following endpoints:
 
 GET methods
 
-1. https://www.jplm.dk/CA3_Boilerplate_Backend/api/jokes (JokeResource.java) will let you see what info Joke_CombinedDTO.java is holding.
+1. https://www.jplm.dk/CA3_Boilerplate_Backend-1/api/jokes (JokeResource.java) will let you see what info Joke_CombinedDTO.java is holding.
 
-2. https://www.jplm.dk/CA3_Boilerplate_Backend/api/scrape/sequential (ScrapeResource.java) will let you see info about 4 urls that is called sequentially
+2. https://www.jplm.dk/CA3_Boilerplate_Backend-1/api/scrape/sequential (ScrapeResource.java) will let you see info about 4 urls that is called sequentially
 
-3. https://www.jplm.dk/CA3_Boilerplate_Backend/api/scrape/parallel (ScrapeResource.java) will let you see info about 4 urls that is called parallel
+3. https://www.jplm.dk/CA3_Boilerplate_Backend-1/api/scrape/parallel (ScrapeResource.java) will let you see info about 4 urls that is called parallel
 
-4. https://www.jplm.dk/CA3_Boilerplate_Backend/api/info/all (UserResource.java) will let you see how many users there are in the database
+4. https://www.jplm.dk/CA3_Boilerplate_Backend-1/api/info/all (UserResource.java) will let you see how many users there are in the database
 
-5. https://www.jplm.dk/CA3_Boilerplate_Backend/api/info/user (UserResource.java) will let you see if you can login with a user and a token you get from the POST method. Remember to add "x-access-token" with the token in the header and use a program like postman to make it work.
+5. https://www.jplm.dk/CA3_Boilerplate_Backend-1/api/info/user (UserResource.java) will let you see if you can login with a user and a token you get from the POST method. Remember to add "x-access-token" with the token in the header and use a program like postman to make it work.
 
-6. https://www.jplm.dk/CA3_Boilerplate_Backend/api/info/admin (UserResource.java) same steps as endpoint 5 but here you test login for an admin
+6. https://www.jplm.dk/CA3_Boilerplate_Backend-1/api/info/admin (UserResource.java) same steps as endpoint 5 but here you test login for an admin
 
-7. https://www.jplm.dk/CA3_Boilerplate_Backend/api/cartoon/first (CartoonResource.java) will let you see the first character in the cartoon api for Rick and Morty
+7. https://www.jplm.dk/CA3_Boilerplate_Backend-1/api/cartoon/first (CartoonResource.java) will let you see the first character in the cartoon api for Rick and Morty
 
-8. https://www.jplm.dk/CA3_Boilerplate_Backend/api/cartoon/{id} (CartoonResource.java) will let you see every character in the cartoon api for Rick and Morty. (ID has to be between 1-671)
+8. https://www.jplm.dk/CA3_Boilerplate_Backend-1/api/cartoon/{id} (CartoonResource.java) will let you see every character in the cartoon api for Rick and Morty. (ID has to be between 1-671)
 
 POST method
 
-1. https://www.jplm.dk/CA3_Boilerplate_Backend/api/login (LoginEndpoint.java) with this endpoint you can with a program like postmand create a user which will then send you a token in response. Remember to add a user and password to the body of the request (if using postman)
+1. https://www.jplm.dk/CA3_Boilerplate_Backend-1/api/login (LoginEndpoint.java) with this endpoint you can with a program like postmand create a user which will then send you a token in response. Remember to add a user and password to the body of the request (if using postman)
